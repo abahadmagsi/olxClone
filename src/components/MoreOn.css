@@ -1,0 +1,28 @@
+.main{
+    background-color: hsl(195, 11%, 93%);
+    width: 90%;
+    height: 350px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin:40px;
+    border-radius: 10px;
+}
+.cards{
+    padding: 16px 16px 32px;
+    margin: 16px 0 24px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    flex: 1;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.main h1{
+    color: #002f34;
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}

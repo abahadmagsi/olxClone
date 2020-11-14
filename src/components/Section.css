@@ -1,0 +1,14 @@
+.cards1{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container1{
+    padding: 20px;
+}
+.container1 h3{
+    font-size: larger;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}

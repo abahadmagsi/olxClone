@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.picDiv{
+    border: 1px solid grey;
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    height: 450px;
+    display: inline;
+}
+.picDiv img{
+    height: 450px;
+    width: 80%;
+    padding-left: 50px;
+}
+.priceDiv{
+    border: 1px solid grey;
+    width: 45%;
+    height: 200px;
+    display: inline;
+    position:absolute;
+    left: 650px;
+    top: 100px;
+}
+
+.priceDiv h1{
+    padding:20px;
+}
+.priceDiv p{
+    padding: 20px;
+}
+
+.discriptionDiv{
+     border: 1px solid grey;
+    width: 50%;
+    height: auto;
+    position:absolute;
+    top: 560px;
+    left: 30px;
+}
+
+.sellerDescriptionDiv{
+    border: 1px solid grey;
+    height: auto;
+    position:absolute;
+    top: 330px;
+    width: 45%;
+    height: 250px;
+    left: 650px;
+}
+.sellerDescriptionDiv h1{
+    padding: 10px;
+}
+.sellerDescriptionDiv h3{
+    padding: 10px;
+}
+
+
+
+.sellerDescriptionDiv .btn{
+    width: 70%;
+    background-color: #002f34;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+}
